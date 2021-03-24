@@ -1,6 +1,6 @@
-import logo from './logo.png';
+import logo from '../../logo.png';
 import './App.css';
-import Login from './Login';
+import Login from '../login/Login';
 
 const App = () => {
   return (
