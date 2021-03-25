@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
-import App from './Dashboard';
+import {render, screen} from '@testing-library/react';
+import Dashboard from './Dashboard';
 
 test('renders dashboard title', () => {
-  render(<App />);
+  render(<Dashboard />);
   const headerElement = screen.getByText(/Your dashboard/i);
   expect(headerElement).toBeInTheDocument();
 });
