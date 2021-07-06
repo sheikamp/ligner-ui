@@ -72,6 +72,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### `docker build -t aimlesslyfree/ligner-ui:latest .`
+#### `docker build -t aimlesslyfree/ligner.ui:latest .`
 
 Builds a production-ready docker image. Please see the ligner-deploy repository for detailed deployment instructions. 
